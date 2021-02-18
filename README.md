@@ -4,13 +4,12 @@ There are several ways for many programming languages like C# and Java to access
 However, few information could be found by using Python to achieve an access_token.
 
 For this reason,
-this git gives an solution to whom wanna using Python to do webscrape on those servers.
+this git gives an solution to whom wanna using 'Python' to do webscrape on those servers.
 
 
 
 Before begining,
 you should know something essential for the request.
-
 ## The things are:
 
 
