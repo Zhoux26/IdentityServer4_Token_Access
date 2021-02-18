@@ -27,7 +27,7 @@ you should know something essential for the request.
 ## How get those information above
 You should find the target website like https://ids.xxx.com/connect/authorize by yourself, open the website and you will find some information contains 'token_url' which your need to request directly. e.g. https://ids.xxx.com/connect/token; "grant_types_supported" as many choices for 'grand_type', normally we choose 'password', then we enter our 'username' and 'password' ;After, "scopes_supported" as 'scope', 'webapi' is the answer. 
 
-The remaining 4 inputs as I know(id, secret, username, password), might need the host of server provides to you. The host has the full right to give your the access account.
+The remaining 4 inputs as I know(id, secret, username, password), might need the server host provides to you. The host has the full right to give your the access account.
 
 However, I known that in most situations, the Python user was not working in the same environment with the server host. So they could not get the these information. This git only provides the solution for those who known the information.
 
