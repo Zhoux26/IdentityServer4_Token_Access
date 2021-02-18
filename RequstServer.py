@@ -68,7 +68,6 @@ class RequestServer(object):
         return token
 
     def request_client(self, url, params, method):
-
         Token = obj.if_refresh_token(start_time, token)
         # get or post for further purpose
         if method == 'get':
@@ -86,10 +85,7 @@ class RequestServer(object):
                 except Exception as e:
                     print(str(e))
 
-
-
         elif method == 'post':
-
             if Token is not None:
                 response = requests.post(url, data=json.dumps(params),
                                          headers={'Content-Type': 'application/json',
