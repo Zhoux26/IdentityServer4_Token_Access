@@ -35,6 +35,6 @@ An optional solution might be applying to be a developer like Google Developers.
 
 
 ## How to use
-Once you got all the information you need, input the information in '(__init__)', and then you could just import the pyfile to use. The file would check for you every time your use. The refresh time can be defined by yourself if you know the token validation time.
+Once you got all the information you need, input the information in '(def___init___)', and then you could just import the pyfile to use. The file would check for you every time your use. The refresh time can be defined by yourself if you know the token validation time.
 
 
