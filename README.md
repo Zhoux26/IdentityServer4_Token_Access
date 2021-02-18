@@ -4,18 +4,18 @@ There are several ways for many programming languages like C# and Java to access
 However, few information could be found by using Python to achieve an access_token.
 
 For this reason,
-this git gives an solution to whom wanna using Python to do webscraoe on those servers.
+this git gives an solution to whom wanna using Python to do webscrape on those servers.
 
 Before begining,
 you should know something essential for the request.
 
-The things are:
+## The things are:
 
 
-'client_id'
-'client_secret'
-'token_url'
-'{'grant_type': 
- 'username': 
- 'password': 
- 'scope':  }'
+* 'client_id'
+* 'client_secret'
+* 'token_url'
+* '{'grant_type': 
+*  'username': 
+*  'password': 
+*  'scope':  }'
