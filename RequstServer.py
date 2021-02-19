@@ -13,7 +13,7 @@ class RequestServer(object):
         return cls._instance
 
     def __init__(self):
-        # information need to input here
+        # input essential details here
         self.client_id = 'xxx'
         self.client_secret = 'xxxxxx'
         self.token_url = 'https://ids.xxx.com/connect/token'
