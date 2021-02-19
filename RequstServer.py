@@ -67,7 +67,7 @@ class RequestServer(object):
         return token
 
     def request_client(self, url, params, method):
-        Token = obj.if_refresh_token(start_time, token)
+        Token = self.if_refresh_token(start_time, token)
         # get or post for further purpose
         if method == 'get':
             # put the token in headers
