@@ -32,7 +32,6 @@ class RequestServer(object):
             self.start_time = self.get_token()[1]
 
     def get_token(self):
-
         headers = {'Authorization': 'Basic {}'
             .format(base64.b64encode(bytes('{}:{}'
                                            .format(self.client_id, self.client_secret)
@@ -54,7 +53,6 @@ class RequestServer(object):
     # token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjkyNjNCQTAyNEIzMDQ3OEI4Q0ZEQjc5OT...
 
     def if_refresh_token(self, startTime, Token):
-
         import datetime
         # if token expires in 3600 seconds
         # can define by yourself or suggest to set as an hour(3600 second)
