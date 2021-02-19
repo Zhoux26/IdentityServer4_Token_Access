@@ -1,7 +1,7 @@
 # IdentityServer4_Token_Access_by_Python 
 
-There are several ways for many programming languages like C# and Java to access a vaild token when requesting a server using IDS4.
-However, few information could be found by using Python to achieve an access_token.
+There are several ways for many programming languages like C# and Java to access a vaild token when request a server using IDS4.
+However, few information could be found by using Python to get an access_token.
 
 For this reason,
 this git gives an solution to whom wanna using Python to do webscrape on those servers.
